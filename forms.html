@@ -1,0 +1,338 @@
+ </ul><!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Demo for client-Kim Freesland</title>
+ <link href="css/material.min.css" media="all" rel="stylesheet" type="text/css" /> 
+  <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" /> 
+ <link href="css/styles.css" media="all" rel="stylesheet" type="text/css"/>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+<!-- Simple header with scrollable tabs. --><!-- List with avatar and controls -->
+<!-- Wide card with share menu button -->
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title images"><img src="Images/FBI_Logo.png" width="118" height="118"> FBI Form MDL</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">FBI Forms</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Corp</a>
+      <a class="mdl-navigation__link" href="">Financial</a>
+      <a class="mdl-navigation__link" href="">Security</a>
+      <a class="mdl-navigation__link" href="">Policy</a>
+    </nav>
+  </div>
+<main class="mdl-content-grid mdl-layout">
+<h6>* Required fields</h6>
+  <form action="#">
+  <div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample003">
+    <label class="mdl-textfield__label" for="sample3">*First name...</label>
+  </div>
+  </div> 
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample002">
+    <label class="mdl-textfield__label" for="sample3">*Last name...</label>
+  </div> 
+  </div>
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample001">
+    <label class="mdl-textfield__label" for="sample3">*Email...</label>
+  </div> 
+  </div>
+  </div>
+  <div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample00">
+    <label class="mdl-textfield__label" for="sample3">*Your address...</label>
+  </div>
+  </div>
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample">
+    <label class="mdl-textfield__label" for="sample4">*zip code...</label>
+    <span class="mdl-textfield__error">Input is not a number! example: 22304</span>
+  </div>
+  </div>
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample1">
+    <label class="mdl-textfield__label" for="sample4">Date...</label>
+    <span class="mdl-textfield__error">Input is not a Date!</span>
+  </div>
+  </div>
+  </div>
+  <div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+    <label class="mdl-textfield__label" for="sample4">Home phone...</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+  </div>
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample3">
+    <label class="mdl-textfield__label" for="sample4">Work phone...</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+  </div>
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+    <label class="mdl-textfield__label" for="sample4">Cell phone...</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+  </div>
+  </div>
+  <div class="mdl-grid">
+ <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+ <div class="mdl-select mdl-js-select mdl-select--floating-label">
+        <select class="mdl-select__input" id="professsion" name="professsion">
+          <option value=""></option>
+          <option value="option1">option 1</option>
+          <option value="option2">option 2</option>
+          <option value="option3">option 3</option>
+          <option value="option4">option 4</option>
+          <option value="option5">option 5</option>
+        </select>
+        <label class="mdl-select__label" for="professsion">Profession</label>
+    </div>
+     </div>
+      <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+ <div class="mdl-select mdl-js-select mdl-select--floating-label">
+        <select class="mdl-select__input" id="professsion" name="professsion">
+          <option value=""></option>
+          <option value="option1">2 years</option>
+          <option value="option2">3 years</option>
+          <option value="option3">4 years</option>
+          <option value="option4">5 years</option>
+          <option value="option5">6 or more years</option>
+        </select>
+        <label class="mdl-select__label" for="professsion">Years of experience</label>
+    </div>
+     </div>
+     </div>
+     <div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-phone">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+    <label class="mdl-textfield__label" for="sample5">Comments...</label>
+  </div>
+ </div>
+  </div>
+ </form>
+ 
+</main>
+
+ <footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">FBI Form demo</div>
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+      <!-- Contact Chip -->
+<span class="mdl-chip mdl-chip--contact">
+    <span class="mdl-chip__contact mdl-color--blue mdl-color-text--white">K</span>
+    <span class="mdl-chip__text"><a href="mailto:kimfreesland@yahoo.com">contact me</a></span>
+</span>
+    </ul>
+  </div>
+</footer>
+</div>
+
+
+<script src="js/material.min.js"></script>
+<script>
+function MaterialSelect(element) {
+  'use strict';
+
+  this.element_ = element;
+  this.maxRows = this.Constant_.NO_MAX_ROWS;
+  // Initialize instance.
+  this.init();
+}
+
+MaterialSelect.prototype.Constant_ = {
+  NO_MAX_ROWS: -1,
+  MAX_ROWS_ATTRIBUTE: 'maxrows'
+};
+
+MaterialSelect.prototype.CssClasses_ = {
+  LABEL: 'mdl-textfield__label',
+  INPUT: 'mdl-select__input',
+  IS_DIRTY: 'is-dirty',
+  IS_FOCUSED: 'is-focused',
+  IS_DISABLED: 'is-disabled',
+  IS_INVALID: 'is-invalid',
+  IS_UPGRADED: 'is-upgraded'
+};
+
+MaterialSelect.prototype.onKeyDown_ = function(event) {
+  'use strict';
+
+  var currentRowCount = event.target.value.split('\n').length;
+  if (event.keyCode === 13) {
+    if (currentRowCount >= this.maxRows) {
+      event.preventDefault();
+    }
+  }
+};
+
+MaterialSelect.prototype.onFocus_ = function(event) {
+  'use strict';
+
+  this.element_.classList.add(this.CssClasses_.IS_FOCUSED);
+};
+
+MaterialSelect.prototype.onBlur_ = function(event) {
+  'use strict';
+
+  this.element_.classList.remove(this.CssClasses_.IS_FOCUSED);
+};
+
+MaterialSelect.prototype.updateClasses_ = function() {
+  'use strict';
+  this.checkDisabled();
+  this.checkValidity();
+  this.checkDirty();
+};
+
+MaterialSelect.prototype.checkDisabled = function() {
+  'use strict';
+  if (this.input_.disabled) {
+    this.element_.classList.add(this.CssClasses_.IS_DISABLED);
+  } else {
+    this.element_.classList.remove(this.CssClasses_.IS_DISABLED);
+  }
+};
+
+MaterialSelect.prototype.checkValidity = function() {
+  'use strict';
+  if (this.input_.validity.valid) {
+    this.element_.classList.remove(this.CssClasses_.IS_INVALID);
+  } else {
+    this.element_.classList.add(this.CssClasses_.IS_INVALID);
+  }
+};
+
+MaterialSelect.prototype.checkDirty = function() {
+  'use strict';
+  if (this.input_.value && this.input_.value.length > 0) {
+    this.element_.classList.add(this.CssClasses_.IS_DIRTY);
+  } else {
+    this.element_.classList.remove(this.CssClasses_.IS_DIRTY);
+  }
+};
+
+MaterialSelect.prototype.disable = function() {
+  'use strict';
+
+  this.input_.disabled = true;
+  this.updateClasses_();
+};
+
+MaterialSelect.prototype.enable = function() {
+  'use strict';
+
+  this.input_.disabled = false;
+  this.updateClasses_();
+};
+
+MaterialSelect.prototype.change = function(value) {
+  'use strict';
+
+  if (value) {
+    this.input_.value = value;
+  }
+  this.updateClasses_();
+};
+
+MaterialSelect.prototype.init = function() {
+  'use strict';
+
+  if (this.element_) {
+    this.label_ = this.element_.querySelector('.' + this.CssClasses_.LABEL);
+    this.input_ = this.element_.querySelector('.' + this.CssClasses_.INPUT);
+
+    if (this.input_) {
+      if (this.input_.hasAttribute(this.Constant_.MAX_ROWS_ATTRIBUTE)) {
+        this.maxRows = parseInt(this.input_.getAttribute(
+            this.Constant_.MAX_ROWS_ATTRIBUTE), 10);
+        if (isNaN(this.maxRows)) {
+          this.maxRows = this.Constant_.NO_MAX_ROWS;
+        }
+      }
+
+      this.boundUpdateClassesHandler = this.updateClasses_.bind(this);
+      this.boundFocusHandler = this.onFocus_.bind(this);
+      this.boundBlurHandler = this.onBlur_.bind(this);
+      this.input_.addEventListener('input', this.boundUpdateClassesHandler);
+      this.input_.addEventListener('focus', this.boundFocusHandler);
+      this.input_.addEventListener('blur', this.boundBlurHandler);
+
+      if (this.maxRows !== this.Constant_.NO_MAX_ROWS) {
+        // TODO: This should handle pasting multi line text.
+        // Currently doesn't.
+        this.boundKeyDownHandler = this.onKeyDown_.bind(this);
+        this.input_.addEventListener('keydown', this.boundKeyDownHandler);
+      }
+
+      this.updateClasses_();
+      this.element_.classList.add(this.CssClasses_.IS_UPGRADED);
+    }
+  }
+};
+
+MaterialSelect.prototype.mdlDowngrade_ = function() {
+  'use strict';
+  this.input_.removeEventListener('input', this.boundUpdateClassesHandler);
+  this.input_.removeEventListener('focus', this.boundFocusHandler);
+  this.input_.removeEventListener('blur', this.boundBlurHandler);
+  if (this.boundKeyDownHandler) {
+    this.input_.removeEventListener('keydown', this.boundKeyDownHandler);
+  }
+};
+
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+  constructor: MaterialSelect,
+  classAsString: 'MaterialSelect',
+  cssClass: 'mdl-js-select',
+  widget: true
+});
+</script>
+ 
+</body>
+
+
+</html>
